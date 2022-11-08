@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.timer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(96.74% 276.79% at 3.59% 5.28%, #F0F4FF 0%, #A5B6EE 100%);
+}
+
+/* 제목 */
+.title img {
+    width: 244px;
+}
+
+
+/* 타이머 */
+.contents {
+    margin-top: 60px;
+    width: 400px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 44px 40px;
+    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+    border-radius: 16px;
+}
+
+.contents .cont-title {
+    padding-bottom: 23px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    border-bottom: 1px solid #374B7C;
+}
+
+.contents .clock {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: row;
+
+    border-top: 1px solid #5B75B4;
+}
+
+.clock .clock-val {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+}
+
